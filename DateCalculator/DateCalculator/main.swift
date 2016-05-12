@@ -11,7 +11,7 @@ import Foundation
 print("\nDate Calculator v1.0");
 print("\nIt calculates the number of full days elapsed in between given start and end dates.")
 print("\nUsage Syntax: datecalculator [start date] [end date]")
-print("Date syntax: DD/MM/YYYY")
+print("Date syntax: YYYY-DD-MM")
 
 let argument = Process.arguments;
 

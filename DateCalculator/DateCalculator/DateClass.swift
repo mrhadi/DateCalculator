@@ -18,17 +18,17 @@ class DateClass {
     var dateValue   : Int = 0;
     
     
-    // Expect input value with format DD/MM/YYYY
+    // Expect input value with format YYYY-DD-MM
     
     init(strDate: String) {
-        let arr = strDate.componentsSeparatedByString("/");
+        let arr = strDate.componentsSeparatedByString("-");
         
         if arr.count == 3 {
-            self.day = Int(arr[0])!;
+            self.year = Int(arr[0])!;
             self.month = Int(arr[1])!;
-            self.year = Int(arr[2])!;
+            self.day = Int(arr[2])!;
             
-            self.dateValue = Int(arr[2] + arr[1] + arr[0])!;
+            self.dateValue = Int(arr[0] + arr[1] + arr[2])!;
         }
     }
 }

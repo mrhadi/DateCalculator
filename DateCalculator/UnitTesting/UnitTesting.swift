@@ -41,20 +41,20 @@ class UnitTesting: XCTestCase {
     
     func testDateValidity() {
         XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "This is my date")), false)
-        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "2/9")), false)
-        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "2-12-2001")), false)
-        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "12/22/2000")), false)
-        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "0/11/1999")), false)
-        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "12/12/1800")), false)
-        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "28/2/2000")), false)
-        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "31/4/1978")), false)
-        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "21/03/1976")), true)
-        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "01/01/2000")), true)
+        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "2-9")), false)
+        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "2001-12-2")), false)
+        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "2000-22-12")), false)
+        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "1999-11-0")), false)
+        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "1800-12-12")), false)
+        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "2000-2-28")), false)
+        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "1978-4-31")), false)
+        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "1976-03-21")), true)
+        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "2000-01-01")), true)
     }
     
     func testCountDays() {
-        XCTAssertEqual(calUtils.countDays(DateClass(strDate: "02/06/1983"), toDate: DateClass(strDate: "22/06/1983")), 19)
-        XCTAssertEqual(calUtils.countDays(DateClass(strDate: "04/07/1984"), toDate: DateClass(strDate: "25/12/1984")), 173)
-        XCTAssertEqual(calUtils.countDays(DateClass(strDate: "03/01/1989"), toDate: DateClass(strDate: "03/08/1983")), 1979)
+        XCTAssertEqual(calUtils.countDays(DateClass(strDate: "1983-06-02"), toDate: DateClass(strDate: "1983-06-22")), 19)
+        XCTAssertEqual(calUtils.countDays(DateClass(strDate: "1984-07-04"), toDate: DateClass(strDate: "1984-12-25")), 173)
+        XCTAssertEqual(calUtils.countDays(DateClass(strDate: "1989-01-03"), toDate: DateClass(strDate: "1983-08-03")), 1979)
     }
 }
