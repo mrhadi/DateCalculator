@@ -4,7 +4,7 @@ Date Calculator v1.0
 This command line tool can calculate the number of full days elapsed between the start and end dates.
 
 Usage syntax:	datecalculator [startdate] [enddate]
-Date syntax:	DD/MM/YYYY
+Date syntax:	YYYY-MM-DD
 
 
 For testing this utility you can consider this website as a source:
@@ -24,7 +24,7 @@ For comparing dates this class provides another property as DateValue which is a
 Our main function is countDays and gets two DateClass type parameters and retun result as interget.
 It first check to be sure the fromDate < toDate, if not swap it.
 
-Then it checks if both dates are at the same month and year, in this case calculation is eady (Line 166).
+Then it checks if both dates are at the same month and year, in this case calculation is easy (Line 166).
 If not, check if they are both at the same year, then count days left to the end of the first month + days passed on the second month and also check if there is any full month between.
 The most complex one is when we have dates on different years, in this case, we calculate the number of days left till end of the first year + count days in full years between two years + days passed on second year.
 
