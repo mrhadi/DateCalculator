@@ -41,10 +41,6 @@ Mac OS X 10.9
 
 
 
-Where to find the compiled release version?
-===========================================
-[Project Directory]\Release
-
 
 How to use the files?
 =====================
