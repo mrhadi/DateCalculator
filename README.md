@@ -49,8 +49,3 @@ Download and unzip the ‘DateCalculator.zip’ to a path on your Mac computer.
 The Xcode project file is located at root.
 Please consider reading the ‘Readme.txt’ file at the same location.
 
-If you just want to run the compiled version, on your Mac, run ’Terminal’ app, you cam find it under ‘Applications\Utilities’
-- Change the current path to [DateCalculator Folder]\Release
-- Type ./datecalculator and hit enter
-- It will gives you some info on how to pass data, for example:
-./datecalculator 2/1/2011 3/11/2020
