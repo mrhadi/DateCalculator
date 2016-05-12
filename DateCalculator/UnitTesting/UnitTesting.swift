@@ -42,7 +42,7 @@ class UnitTesting: XCTestCase {
     func testDateValidity() {
         XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "This is my date")), false)
         XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "2-9")), false)
-        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "2001-12-2")), false)
+        XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "2001-12-2")), true)
         XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "2000-22-12")), false)
         XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "1999-11-0")), false)
         XCTAssertEqual(calUtils.isValidDate(DateClass(strDate: "1800-12-12")), false)

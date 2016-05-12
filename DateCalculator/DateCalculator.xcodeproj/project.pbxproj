@@ -11,6 +11,8 @@
 		18A6C97F1CE3FC550035B2F8 /* CalendarUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6C97E1CE3FC550035B2F8 /* CalendarUtils.swift */; };
 		18A6C9811CE3FC620035B2F8 /* DateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6C9801CE3FC620035B2F8 /* DateClass.swift */; };
 		18A6C9891CE3FCD70035B2F8 /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6C9881CE3FCD70035B2F8 /* UnitTesting.swift */; };
+		18A6C98E1CE404DB0035B2F8 /* CalendarUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6C97E1CE3FC550035B2F8 /* CalendarUtils.swift */; };
+		18A6C98F1CE404E70035B2F8 /* DateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6C9801CE3FC620035B2F8 /* DateClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -190,7 +192,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A6C98F1CE404E70035B2F8 /* DateClass.swift in Sources */,
 				18A6C9891CE3FCD70035B2F8 /* UnitTesting.swift in Sources */,
+				18A6C98E1CE404DB0035B2F8 /* CalendarUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
