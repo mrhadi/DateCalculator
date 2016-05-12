@@ -4,6 +4,7 @@ Date Calculator v1.0
 This command line tool can calculate the number of full days elapsed between the start and end dates.
 
 Usage syntax:	datecalculator [startdate] [enddate]
+
 Date syntax:	YYYY-MM-DD
 
 
@@ -33,7 +34,9 @@ The most complex one is when we have dates on different years, in this case, we 
 Development Platform
 ====================
 Xcode 7.2
+
 Swift 2.1
+
 Mac OS X 10.9
 
 
