@@ -41,11 +41,3 @@ Mac OS X 10.9
 
 
 
-
-How to use the files?
-=====================
-Download and unzip the ‘DateCalculator.zip’ to a path on your Mac computer.
-
-The Xcode project file is located at root.
-Please consider reading the ‘Readme.txt’ file at the same location.
-
